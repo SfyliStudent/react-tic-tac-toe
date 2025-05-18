@@ -1,0 +1,55 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  
+}
+.cell {
+
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 100px;
+  width: 100px;
+  margin-right: 1px;
+  margin-top: 1px;
+  padding: 0;
+  text-align: center;
+  border: #ffffff;
+  display: flex;       
+  align-items: center; 
+  justify-content: center;
+  
+  
+}
+.board {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 300px;
+}
+.board-row {
+  display: flex;
+}
+.board-row ::after{
+  clear: both;
+  content: '';
+  display: table;
+}
+.status {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
